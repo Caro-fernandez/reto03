@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación de tareas - To-do List App"/>
+    <meta name="author" content="Carolina Fernández"/>
+    <meta name="copyright" content="Carolina Fernández 2023"/>
+
+    <title>Tareitas</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">   
+</head>
+<body>
+<section>
+    <div class="inicio">
+        <h1 class="titulo" id="title">¿Qué tenés que hacer hoy?</h1>
+        <div class="usuario">
+            <input type="text" placeholder="Nombre" class="nombre" id="nombre">
+            <button type="button" class="btn" id="btn">Ingresar</button>
+       </div>
+    </div>
+
+    <!--<div class="alert" id="mensaje"> </div>
+       
+     Este div era para hacer el alerta pop-up pero no me salió :( -->
+    
+
+    <div class="tareas" id="lista">
+       
+      <ul>
+        <li class="tareita">
+            <input type="checkbox" name="tarea1" class="tarea" id="tarea1" >
+            <span id="task1"> Desayunar (aunque sea unos mates) 🧉</span>  
+        </li>  
+        <li class="tareita">
+            <input type="checkbox" name="tarea2" class="tarea" id="tarea2"> 
+            <span id="task2"> Ir a trabajar - Hoy toca tempranito. 📕</span>  
+        </li>  
+        <li class="tareita">
+            <input type="checkbox" name="tarea3" id="tarea3"> 
+           <span id="task3"> Hacer mandados a la vuelta - Hay que llenar la heladera 🛍</span> 
+          </li> 
+          <li class="tareita">
+            <input type="checkbox" name="tarea4" id="tarea4"> 
+            <span id="task4"> Llamar a mamá 😊</span> 
+         </li>
+          
+          <li class="tareita">
+            <input type="checkbox" name="tarea5" id="tarea5">
+            <span id="task5"> Una siestita para recargar pilas 😴</span> 
+         </li>
+         
+          <li class="tareita">
+            <input type="checkbox" name="tarea6" id="tarea6"> 
+            <span id="task6">Volver a trabajar 📕</span>
+         </li>
+          
+          <li class="tareita">
+            <input type="checkbox" name="tarea7" id="tarea7"> 
+            <span id="task7"> Ir al gym 🤸‍♀️🏋️‍♂️</span>
+         </li>
+          
+         <li class="tareita">
+            <input type="checkbox" name="tarea8" id="tarea8"> 
+            <span id="task8"> Merendar - Es mucho muy importante 🥐 </span>
+         </li>
+          
+         <li class="tareita"> 
+            <input type="checkbox" name="tarea9" id="tarea9"> 
+            <span  id="task9"> Mirar los videitos del dia - Winterhack 🤓</span>
+         </li>
+          
+         <li class="tareita">
+            <input type="checkbox" name="tarea10" id="tarea10"> 
+            <span id="task10"> Conectarme - Hoy es corrección de retos, muchacho! 💻</span>
+        </li>
+    
+    </ul>
+</div>
+</section>
+    <script src="tareas.js"></script>
+</body>
+</html>

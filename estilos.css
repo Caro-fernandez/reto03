@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: 'Chewy', cursive;
+    color: #0d2827;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+}
+
+.usuario {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.nombre{
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px #666;
+    margin-right: 5px;
+}
+
+.btn{
+    background-color: #22A699;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    border: solid 1px #2dd4c4;
+    border-radius: 5px;
+    padding: 8px;
+}
+.btn:hover{
+    border: solid 2px #145e56;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.tareita {
+    margin-bottom: 1px;
+    padding: 10px;  
+}
+
+span{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    padding: 10px;
+    border: solid, transparent;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+
+#task1{
+    background-color: #4B7BE5;
+}
+
+#task2 {
+background-color:#22A699;
+}
+#task3{
+    background-color: #15b78c;
+}
+#task4{
+    background-color: #cff31a;
+}
+#task5{
+    background-color: #F2BE22;
+}
+#task6{
+    background-color: #F29727;
+}
+#task7{
+    background-color: #ef7331;
+}
+#task8{
+    background-color: #F24C3D;
+}
+#task9{
+    background-color: #C70039;
+    color: rgb(204, 203, 202);
+}
+#task10{
+    background-color: #900C3F;
+    color: whitesmoke;
+}
+
+
+.tachada {
+    text-decoration-line: line-through;
+    color:lightgray
+}
+
